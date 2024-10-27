@@ -3,16 +3,16 @@
 - product-controller.ts
   - Controller "prod" => porte à confusion versus environnement de production.
   - ProductService instancié à la main => utiliser le système de DI de Nest.
-  - @Post() => path du endpoint.
+  - @Post() => path du endpoint pas clair ?
   
 - ProductRepository.ts
-  - Nommage du fichier pas cohérent avec le controlleur.
-  - Les données peuvent être récupérées en une seule requête (problème du N+1).
+  - Nommage du fichier pas cohérent avec le controlleur ?
+  - Les données peuvent être récupérées en une seule requête (problème du N+1) ?
   - Je ne connais pas Nest mais j'imagine qu'il y a moyen d'éviter de passer PrismaClient en paramètre ?
 
 - calculate-price.ts
-  - le code est éclaté, s'il fonctionne quand même, ajouter des TU et repartir de 0.
-  - Peut-être qqch dans ce style 
+  - le code est éclaté, s'il fonctionne quand même, ajouter des TU et repartir de 0 ?
+  - Peut-être qqch dans ce style :
   ```ts
 	export class CalculatePriceProduct {
 
