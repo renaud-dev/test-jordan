@@ -26,7 +26,7 @@
 		}
 		return product.materials.reduce((acc, current) => {
 		  let materialPrice = 0;
-		  if (current.dimension <= 0 || current.weight <= 1) {
+		  if (current.dimension > 0 || current.weight > 0) {
 			materialPrice = (current.cost * current.interest)
 		  }
 		  return acc + materialPrice;
