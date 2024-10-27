@@ -12,7 +12,7 @@
 
 - calculate-price.ts
   - le code est éclaté, s'il fonctionne quand même, ajouter des TU et repartir de 0 ?
-  - Peut-être qqch dans ce style :
+  - Peut-être qqch dans ce style (j'ai pas vérifié si ça marche, il faut des TU)  :
   ```ts
 	export class CalculatePriceProduct {
 
