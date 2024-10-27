@@ -34,6 +34,7 @@
 	  }
 	}
   ```
+  - On peut aussi mettre ce bout de code ailleurs, dans Product.ts par exemple en mode BDD ?
 
 # front
 
